@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+p::selection , h6::selection , h4::selection , h3::selection , h2::selection ,h1::selection , span::selection{
+    color: white;
+    background: black;
+}
+
+
+.home{
+    background-image: url('../bezel_images/bg-image-28.jpg');
+    background-size: 100% 100%;
+}
+
+.content h1{
+    font-size: 110px;
+    font-family: 'Poppins', sans-serif;
+}
+.content p{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.layer{
+    background-color: rgba(0 , 0 , 0 , 0.6);
+}
+
+.about_content .p2{
+    font-size: 22px;
+}
+
+.team_content h2{
+    font-size: 58px;
+    font-family: 'Poppins', sans-serif;
+}
+.team_content h2::selection{
+    color: white;
+    background: black;
+}
+.team_content p{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.member{
+    width: 25%;
+}
+
+.team_pics img{
+    width: 100%;
+}
+
+.blue_layer{
+    opacity: 0;
+    transition: 0.5s all;
+    display: none;
+    flex-direction: column;
+    transform: translateY(20%);
+}
+.member:hover .blue_layer{
+    opacity: 0.8;
+    transform: translateY(5%);
+}
+.icons img{
+    width: 22px;
+    border-radius: 50%;
+}
+
+.services{
+    background-color: #1f1f1f;
+    opacity: 0.7;
+}
+.list_row li{
+    list-style: none; 
+    width: 15%;
+}
+.services li::selection{
+    color: white;
+    background: black;
+}
+
+.services_content h4{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+.services_content h4::selection{
+    color: white;
+    background: black;
+}
+.list_column li{
+    list-style: circle;
+}
+.pricing{
+    background-color: #F5F5F5;
+}
+.price{
+    width: 26%;
+}
+.price h2{
+    font-size: 45px;
+}
+.price h4{
+    font-size: 15px;
+}
+.price h2 span{
+    font-size: 15px;
+    vertical-align: text-top;
+}
+.pricing_list li{
+    color: gray;
+    list-style: none;
+}
+.pricing_list li::selection{
+    color: white;
+    background: black;
+}
+.best_value{
+    font-size: 9px;
+    border-radius: 55%;
+}
+.happy::selection{
+    color: white;
+    background: black;
+}
+.profile{
+    border-radius: 20px;
+}
+.profile_image img{
+    width: 120px;
+    border-radius: 50%;
+    bottom: 0px;
+    left: 200px;
+}
+.map{
+    width: 50%;
+}
+.map img{
+    width: 100%;
+}
+.inputs::selection{
+    color: white;
+    background: black;
+}
+.button_move{
+    background-color: rgba(128,128,128,0.7);
+}
+.button_move:hover{
+    background-color: lightskyblue;
+}
+
+
